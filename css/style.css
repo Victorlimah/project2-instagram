@@ -14,14 +14,22 @@ body {
 .topo {
   height: 54px;
   width: 100vw;
-  align-items: center;
-  display: flex;
-  margin: 0 auto 34px auto;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  z-index: 5;
   border-bottom: 1px solid #dbdbdb;
   position: fixed;
   background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div-topo {
+  width: 938px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
 }
 
 .barra-pesquisa {
@@ -55,6 +63,10 @@ body {
   width: 128px;
   display: flex;
   justify-content: space-between;
+}
+
+.icones-acao .icone {
+  margin-right: 22px;
 }
 
 ion-icon {
@@ -249,6 +261,7 @@ BOTAR ANCORA NOS ICONES EM CIMA
 BOTAR BOTÕES NOS ICONES DE AÇÃO
 VERSÃO MOBILE
 VERSAP TABLET
+arrumar topo
 
 
 
