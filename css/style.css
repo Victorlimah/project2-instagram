@@ -221,3 +221,37 @@ ion-icon {
   font-weight: 300;
   font-size: 14px;
 }
+
+.acoes-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-post {
+}
+
+.curtidas {
+  display: flex;
+}
+.curtidas img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.curtidas span {
+  font-weight: bold;
+}
+
+/*
+
+BOTAR ANCORA NOS ICONES EM CIMA
+BOTAR BOTÕES NOS ICONES DE AÇÃO
+VERSÃO MOBILE
+VERSAP TABLET
+
+
+
+
+
+*/
