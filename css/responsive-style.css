@@ -1,0 +1,19 @@
+/* 
+
+Tirar slide bar quanto a tela for menor
+que 935px
+
+Layout Mobile para telas inferiores a 
+614px
+
+*/
+
+
+/* VERSÃO 935 */
+
+@media (max-width: 935px) {}
+
+
+/* VERSÃO MOBILE */
+
+@media (max-width: 614px) {}
