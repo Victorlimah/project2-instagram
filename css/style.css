@@ -68,19 +68,22 @@ ion-icon {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  overflow: hidden;
 }
 
 .story {
-  width: 56px;
-  height: 75px;
+  width: 66px;
+  height: 88px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  margin: 0 10 0 30px;
 }
 
 .story img:nth-child(2) {
   width: 66px;
   height: 66px;
+  border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
@@ -102,6 +105,9 @@ ion-icon {
   line-height: 14px;
   margin: 0 auto;
   z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .principal-site {
