@@ -48,7 +48,6 @@ body {
 
 .logo {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -60,7 +59,6 @@ body {
 }
 
 .icones-acao {
-  width: 128px;
   display: flex;
   justify-content: space-between;
 }
@@ -136,9 +134,9 @@ ion-icon {
 }
 
 .icon-seta {
+  font-size: 26px;
   background-color: #ffffff;
   color: #dbdbdb;
-  font-size: 26px;
   border-radius: 50%;
   filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
@@ -260,8 +258,8 @@ ion-icon {
 BOTAR ANCORA NOS ICONES EM CIMA
 BOTAR BOTÕES NOS ICONES DE AÇÃO
 VERSÃO MOBILE
-VERSAP TABLET
-arrumar topo
+VERSAÕ TABLET
+ok ~~~~~~~~~~arrumar topo
 
 
 
