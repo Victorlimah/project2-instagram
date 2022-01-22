@@ -203,7 +203,7 @@ ion-icon {
 }
 
 .coluna-post img {
-  width: 612px;
+  width: 100%;
   height: 612px;
 }
 
@@ -232,25 +232,47 @@ ion-icon {
   font-size: 14px;
 }
 
+.footer-post {
+  height: calc(749px - 674px);
+}
+
 .acoes-post {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 17px 0 17px;
+  height: 50%;
 }
 
-.footer-post {
+.acoes-post ion-icon {
+  margin-right: 8px;
+}
+
+.curtir-comentar-enviar,
+.salvar {
+  font-size: 25px;
 }
 
 .curtidas {
   display: flex;
+  align-items: center;
 }
 .curtidas img {
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  margin: 0 8px 0 18px;
 }
 
+.curtidas p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
 .curtidas span {
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 /*
@@ -258,7 +280,7 @@ ion-icon {
 BOTAR ANCORA NOS ICONES EM CIMA
 BOTAR BOTÕES NOS ICONES DE AÇÃO
 VERSÃO MOBILE
-VERSAÕ TABLET
+ok ~~~~~~~~~~VERSAÕ TABLET
 ok ~~~~~~~~~~arrumar topo
 
 
