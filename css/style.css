@@ -69,15 +69,22 @@ ion-icon {
   justify-content: space-evenly;
   align-items: center;
   overflow: hidden;
+  position: relative;
+}
+
+.box-stories div:first-child {
+  margin-left: 0;
 }
 
 .story {
-  width: 66px;
+  min-width: 66px;
   height: 88px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  margin: 0 10 0 30px;
+  justify-content: space-evenly;
+  margin-left: 25px;
+  left: 68px;
 }
 
 .story img:nth-child(2) {
@@ -108,6 +115,20 @@ ion-icon {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.setinha {
+  position: absolute;
+  right: 16px;
+  z-index: 3;
+}
+
+.icon-seta {
+  background-color: #ffffff;
+  color: #dbdbdb;
+  font-size: 26px;
+  border-radius: 50%;
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
 .principal-site {
