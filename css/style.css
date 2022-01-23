@@ -102,8 +102,9 @@ ion-icon {
   flex-wrap: wrap;
   position: relative;
   justify-content: space-evenly;
-  margin-left: 25px;
-  left: 68px;
+  align-items: flex-end;
+  margin-left: 15px;
+  left: 20px;
 }
 
 .story img:nth-child(2) {
@@ -113,6 +114,7 @@ ion-icon {
   position: absolute;
   top: 0;
   left: 0;
+  align-items: center;
 }
 
 .story img:first-child {
@@ -132,8 +134,6 @@ ion-icon {
   margin: 0 auto;
   z-index: 2;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
 
 .setinha {
@@ -237,7 +237,7 @@ ion-icon {
 .meu-perfil div h4 {
   font-weight: 500;
   font-size: 14px;
-  margin-bottom: 2 px;
+  margin-bottom: 4px;
 }
 
 .meu-perfil div p {
