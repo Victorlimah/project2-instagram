@@ -145,10 +145,14 @@ ion-icon {
   width: 614px;
 }
 
+.parte-direita {
+  width: 325px;
+  height: 520px;
+}
 .box-slidebar {
   width: 297px;
-  height: 520px;
   margin-left: 28px;
+  position: fixed;
 }
 
 .coluna-post {
@@ -300,7 +304,8 @@ ion-icon {
 .perfis {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  align-items: center;
 }
 
 .perfis p {
@@ -312,6 +317,7 @@ ion-icon {
 
 .foto-nome {
   display: flex;
+  align-items: center;
 }
 
 .foto-nome div {
@@ -343,9 +349,13 @@ ion-icon {
   font-weight: 400;
   font-size: 11px;
   line-height: 14px;
-  color: #8e8e8e;
-  margin-bottom: 20px;
+  color: #c7c7c7;
 }
+
+.links-e-infos p:first-child {
+  margin: 35px 0 18px 0;
+}
+
 /*
 
 BOTAR ANCORA NOS ICONES EM CIMA
