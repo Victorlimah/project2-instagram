@@ -275,11 +275,37 @@ ion-icon {
   line-height: 16px;
 }
 
+.labels {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 20px 0;
+}
+
+.perfis {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.foto-nome {
+  display: flex;
+}
+
+.foto-nome div {
+  margin-left: 15px;
+}
+
+.perfis img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
 /*
 
 BOTAR ANCORA NOS ICONES EM CIMA
 BOTAR BOTÕES NOS ICONES DE AÇÃO
 VERSÃO MOBILE
+BOTAR ICONE DO INSTAGRAM NO HEAD DA PAG
 ok ~~~~~~~~~~VERSAÕ TABLET
 ok ~~~~~~~~~~arrumar topo
 
