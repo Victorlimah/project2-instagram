@@ -32,6 +32,11 @@ body {
   margin: 0 auto 0 auto;
 }
 
+.div-topo div:first-child {
+  display: flex;
+  align-items: center;
+}
+
 .barra-pesquisa {
   width: 215px;
   height: 28px;
@@ -65,6 +70,10 @@ body {
 
 .icones-acao .icone {
   margin-left: 22px;
+}
+
+.icones-acao .icone:first-child {
+  margin-left: 0;
 }
 
 ion-icon {

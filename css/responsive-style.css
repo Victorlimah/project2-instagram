@@ -11,7 +11,8 @@ Layout Mobile para telas inferiores a
 /* VERSÃO 935 */
 
 @media (max-width: 935px) {
-  .box-slidebar {
+  .box-slidebar,
+  .parte-direita {
     display: none;
   }
 }
@@ -19,4 +20,45 @@ Layout Mobile para telas inferiores a
 /* VERSÃO MOBILE */
 
 @media (max-width: 614px) {
+  .icones-acao .icone,
+  .setinha,
+  .mini-divisao {
+    display: none;
+  }
+  .barra-pesquisa {
+    display: none;
+    width: 1px;
+  }
+
+  .div-topo {
+    justify-content: space-between;
+  }
+
+  .div-topo div:first-child {
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .topo {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .icones-acao .icone:first-child {
+    display: flex;
+    width: 100%;
+  }
+
+  .principal-site {
+    overflow: hidden;
+  }
+
+  .box-stories {
+    border: none;
+    top: -15px;
+  }
+
+  .coluna-post {
+    margin-top: -15px;
+  }
 }
