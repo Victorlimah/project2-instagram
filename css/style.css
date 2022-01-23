@@ -64,7 +64,7 @@ body {
 }
 
 .icones-acao .icone {
-  margin-right: 22px;
+  margin-left: 22px;
 }
 
 ion-icon {
@@ -146,7 +146,8 @@ ion-icon {
 }
 
 .box-slidebar {
-  width: 293px;
+  width: 297px;
+  height: 520px;
   margin-left: 28px;
 }
 
@@ -281,10 +282,32 @@ ion-icon {
   margin: 25px 0 20px 0;
 }
 
+.labels p:first-child {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8e8e8e;
+}
+
+.labels p:last-child {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #262626;
+}
+
 .perfis {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+}
+
+.perfis p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #139ef2;
 }
 
 .foto-nome {
@@ -295,10 +318,33 @@ ion-icon {
   margin-left: 15px;
 }
 
+.foto-nome div h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+}
+
+.foto-nome div p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8e8e8e;
+}
+
 .perfis img {
   border-radius: 50%;
   width: 32px;
   height: 32px;
+}
+
+.links-e-infos p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  color: #8e8e8e;
+  margin-bottom: 20px;
 }
 /*
 
