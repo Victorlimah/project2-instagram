@@ -72,6 +72,11 @@ body {
   margin-left: 22px;
 }
 
+.icone a,
+.logo a {
+  color: #262626;
+}
+
 .icones-acao .icone:first-child {
   margin-left: 0;
 }
@@ -389,17 +394,3 @@ ion-icon {
 .footer div ion-icon {
   font-size: 25px;
 }
-/*
-
-BOTAR ANCORA NOS ICONES EM CIMA
-BOTAR BOTÕES NOS ICONES DE AÇÃO
-VERSÃO MOBILE
-BOTAR ICONE DO INSTAGRAM NO HEAD DA PAG
-ok ~~~~~~~~~~VERSAÕ TABLET
-ok ~~~~~~~~~~arrumar topo
-
-
-
-
-
-*/

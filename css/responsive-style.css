@@ -1,20 +1,7 @@
-/* 
-
-Tirar slide bar quanto a tela for menor
-que 935px
-
-Layout Mobile para telas inferiores a 
-614px
-
-*/
-
-/* VERSÃO 935 */
-
-@media (min-width: 935px) {
-  .footer {
-    display: none;
-  }
+.footer {
+  display: none;
 }
+/* VERSÃO 935 */
 
 @media (max-width: 935px) {
   .box-slidebar,
@@ -23,10 +10,6 @@ Layout Mobile para telas inferiores a
   }
   .div-topo {
     margin: 0 20px;
-  }
-
-  .footer {
-    display: none;
   }
 }
 
